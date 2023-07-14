@@ -135,11 +135,12 @@
   
   .content {
     max-width: 1000px;
+    height: 1000px;
     margin: 5% auto;
-    padding: 20px;
+    padding: 20px;  
     background-color: #ccc;
     border-radius: 10px;
-    overflow: hidden;
+
     box-sizing: border-box;
     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
   }
@@ -169,7 +170,28 @@
   
   
   
-  
+  /* Footer */
+.footer-wrapper {
+  background-color: black;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__widget {
+  font-size: 24px;
+}
+
+.footer__widget__title {
+  color: var(--accent-color);
+  margin: 0 0 1rem 0;
+}
+
+.footer__widget__text {
+  margin: 0;
+}
   
   
   
